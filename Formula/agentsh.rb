@@ -2,25 +2,25 @@ class Agentsh < Formula
   desc "A shell for AI agents - runs commands, blocks efficiently, returns structured output"
   homepage "https://github.com/sanjay920/agentsh"
   license "MIT"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sanjay920/agentsh/releases/download/v0.1.0/agentsh-aarch64-apple-darwin.tar.gz"
-      sha256 "66b1a819184e7e6133a14da43a2e75cc7ae4b7555cae02216fe0c9f369f94a58"
+      url "https://github.com/sanjay920/agentsh/releases/download/v0.2.0/agentsh-aarch64-apple-darwin.tar.gz"
+      sha256 "e84849a1cd4711942271c14c495ce6b32d8c26a4b026a974daa434eb3aee4869"
     else
-      url "https://github.com/sanjay920/agentsh/releases/download/v0.1.0/agentsh-x86_64-apple-darwin.tar.gz"
-      sha256 "fb0eff70828083e9f2168a5188e35a6daefa50bd355240571043adb15886a55a"
+      url "https://github.com/sanjay920/agentsh/releases/download/v0.2.0/agentsh-x86_64-apple-darwin.tar.gz"
+      sha256 "513d13eb59d8666a28f418df83fbcef389e04811593e3339ef2dc0e45c1ee8e2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/sanjay920/agentsh/releases/download/v0.1.0/agentsh-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "00ae896197eb5a1e5cd396722b8fd18d823f02b973a437cd834f1d984491f5a3"
+      url "https://github.com/sanjay920/agentsh/releases/download/v0.2.0/agentsh-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "dfd2bbf44dcc57ee86fe8d3e65ffa2cd3f90cfd5878cd430d2a70d5098ce8f54"
     else
-      url "https://github.com/sanjay920/agentsh/releases/download/v0.1.0/agentsh-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "89f17a056205195db7cb11f2efa8e8b49aa006aee53e0dbe43483bbedcd9b3dd"
+      url "https://github.com/sanjay920/agentsh/releases/download/v0.2.0/agentsh-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "93890003d0be47c73a5e0d01421798d610c3f84a50d34b65fdd681c6f410b5ac"
     end
   end
 
