@@ -7,10 +7,10 @@ class Llmshim < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/sanjay920/llmshim/releases/download/v0.1.24/llmshim-aarch64-apple-darwin.tar.gz"
-      sha256 "eb1a9f4411f8586446be300e0b85a57451e7a2836257145d7ce470126749562d"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     else
       url "https://github.com/sanjay920/llmshim/releases/download/v0.1.24/llmshim-x86_64-apple-darwin.tar.gz"
-      sha256 "c8a5a92497882bfbfe6e0b8be3290397d101798c2bc69c1cc9231c67e1c4ccc0"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
   end
 
