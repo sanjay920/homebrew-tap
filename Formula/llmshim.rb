@@ -2,15 +2,15 @@ class Llmshim < Formula
   desc "Blazing fast LLM API translation layer — one interface, every provider"
   homepage "https://github.com/sanjay920/llmshim"
   license "MIT"
-  version "0.23.0"
+  version "0.24.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sanjay920/llmshim/releases/download/v0.23.0/llmshim-aarch64-apple-darwin.tar.gz"
-      sha256 "bf51b41269b2c692d6a2888c7fe7225b9607de15ec30d087c915ca13bbc7899d"
+      url "https://github.com/sanjay920/llmshim/releases/download/v0.24.0/llmshim-aarch64-apple-darwin.tar.gz"
+      sha256 "41eaee10d7b73e6a71f50f562358d8e59cc356f13edc5898f0cdaadfa695e5f2"
     else
-      url "https://github.com/sanjay920/llmshim/releases/download/v0.23.0/llmshim-x86_64-apple-darwin.tar.gz"
-      sha256 "a163c6bc3c796505b13ff30da768990485c12d569a9700c19a1c51b248744e7e"
+      url "https://github.com/sanjay920/llmshim/releases/download/v0.24.0/llmshim-x86_64-apple-darwin.tar.gz"
+      sha256 "4529b3a413a2eb4e6967dbf31e476701d2cec7f4754c982d33b26c659302cbc3"
     end
   end
 
